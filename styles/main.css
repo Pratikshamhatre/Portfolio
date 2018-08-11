@@ -1,0 +1,229 @@
+body {
+  font-family: 'Lato', sans-serif !important;
+    margin: 0;
+    /* background-attachment: fixed; */
+  
+    
+}
+.mainDiv {
+  height: 100%;
+  margin-right:0 !important;
+ padding: 0 !important;
+}
+
+.navbar-default {
+    background-color: var(--primary-color) !important;
+}
+span, h1{
+  color:var(--primary-color) !important;
+}
+.navbar-nav{
+  margin-top: 6px !important
+}
+
+.nav li a, .navbar-header h3{
+  color:var(--primary-white) !important;
+}
+
+#about
+{
+  margin-top: 50px;
+  padding: 0 !important;
+  background-color:var(--secondary-white);
+  
+}
+
+
+.banner{
+
+  width: 60% !important;
+  height: 30% !important;
+  padding:0px !important;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+
+.info
+{
+  padding: 20px !important;
+  word-break: normal;
+}
+
+
+
+.nameLabel{
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.lablestyle{
+  margin: 10px;
+  padding: 0px !important;
+}
+
+.valueLableStyle{
+  margin: 5px;
+  word-break: break-all;
+}
+
+.innerLable{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.valueLable{
+  
+  color:var(--primary-charcol) !important;
+  font-size: 15px;
+}
+
+
+i{
+  font-size:10px;
+  margin-right: 12px !important;
+  color:var(--primary-color) !important;
+}
+
+#about hr {
+
+  width: 30%;
+  margin: 5px 10px;
+}
+
+.profile-image{
+  padding: 0px;
+}
+
+.profile-info
+{
+  padding: 0px !important; 
+  height: 100%;
+}
+
+.edu-title
+{
+  
+  text-align: center;
+  margin-bottom: 20px;
+  
+  padding: 5% 0; 
+
+ 
+}
+.board
+{
+  font-weight: bold;
+  color:var(--primary-charcol);
+  font-family:'Lato', sans-serif;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1.428571429;
+}
+
+
+#skills {
+  padding: 5% 0;
+  background-color:var(--secondary-white);
+  
+}
+
+#skills h1 {
+  text-transform: uppercase;
+}
+
+.progress-bar{
+  background-color:var(--primary-color) !important;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  
+}
+
+
+#skills hr,#myWork hr,#education hr {
+  width: 60%;
+  align-self: center; 
+
+  
+}
+.skillBorder{
+
+  text-align: center;
+  margin-bottom: 20px;
+
+
+}
+
+
+
+ /* .container-fluid{
+padding-right: 0% !important;
+padding-left: 0% !important;
+}  */
+
+
+
+.skillStyle{
+  margin-bottom: 10px; 
+  margin-top: 10px
+ }
+
+.skillInner
+{
+  background-color:var(--primary-white);
+  box-shadow:2px 2px 5px var(--box-shadow);
+  padding:5% !important;
+
+}
+
+
+.skillStyleBottom{
+  margin-bottom: 2px; 
+  margin-top: 0px
+}
+
+
+#myWork
+{
+  margin-bottom: 100px !important;
+  padding:0;
+  text-transform: uppercase;
+}
+
+.work-title
+{
+  
+  text-align: center;
+  margin-bottom: 20px;
+  
+  padding: 4% 0 !important; 
+
+ 
+}
+
+
+.projStyle{
+  text-align: center;
+  color:var(--primary-color);
+}
+
+
+@media screen and (max-width: 1140px) {
+  .nameLabel{
+    font-size: 20px;
+  }
+
+  .info
+  {
+    padding: 10px !important;
+  }
+
+  .lablestyle{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+
